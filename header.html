@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mansi Rawat</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendors/magnific-popup/magnific-popup.css" />
+
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="lightbox.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="response.css">
+</head>
+
+<body>
+  <a href="#" class="scroll-top">
+    <i class="fa-solid fa-angle-up"></i>
+</a>
+<section id="home">
+
+    <div id="header">
+        <div class="container-1">
+            <nav>
+                <h1 class="logo">Mansi</h1>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Gallery</a></li>
+                    <li><a href="#certificate">Certificate</a></li>
+                    <li><a href="#contect">Contect</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    <img src="img/sun.png" id="icon">
+                </ul>
+               
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="text">
+                <h1>Hi, I'm <br><span>Mansi Rawat</span><br> from Uttarakhand</h1>
+            </div>
+            <a href="Mansi-Rawat.pdf" download="" class="btn">Download CV <i class="fa-solid fa-download"></i></a>  
+        </div>
+    </div>
+    
+</section>
+    <!-- about -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-1">
+                    <img src="img/16.jpeg">
+                </div>
+                <div class="about-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                      I am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience. I like to read,I like to dream, I like to see the sunrise in the morning, I like to see the moonlight at night And I like to feel the music.</p>
+                    <div class="tabs">
+                      <p class="tab-1 tab-2" onclick="opentab('skill')">Skill</p>
+                      <p class="tab-1" onclick="opentab('education')">Education</p>
+                        <p class="tab-1" onclick="opentab('experience')">Projects</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skill">
+                        <ul>
+                            <li><span>Web</span><br>Html5 ,Css, JavaScript</li>
+                            <li><span>Language</span><br>Java, C, Python</li>
+                            <li><span>MS Office</span><br>Word, Excel, PowerPoint</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Portfolio</span><br><a href="https://mansirawat21.github.io/sir-portfolio/">https://mansirawat21.github.io/sir-portfolio/</a></li>
+                            <li><span>Fashiononsta</span><br><a href="https://mansirawat21.github.io/Project-work/">https://mansirawat21.github.io/Project-work/</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Diploma in Computer</span><br>Govt. Polytechnic Kashipur(Uttarakhand)</li>
+                            <li><span>Secondary School</span><br>G G I C Dewayal salt Almora (Uttarakhand)</li>
+                            <li><span>High School</span><br>G G I C Dewayal salt Almora (Uttarakhand)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="ftco-section ftco-hireme cl">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-lg-9 d-flex align-items-center ftco-animate py-5 px-5">
+            <h2>Hire Me
+              <span>For Your</span>
+              Project
+            </h2>
+          </div>
+          <div class="col-md-4 col-lg-3 d-flex align-items-center ftco-animate">
+            <p class="mb-0">
+              <a href="mailto:phagunikataria0@gmail.com" class="btn text-dark btn-2 py-3 px-5">Hire me</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  <section id="portfolio">
+      <div class="position-relative d-flex align-items-center justify-content-center">
+        <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke:2px #dee2e6;">gallery</h1>
+        <h1 class="position-absolute text-uppercase  clr"> Gallery</h1>
+      </div>
+        <div class="container-1">
+            <div class="work-list">
+                  <a href="img/1.jpeg" data-lightbox="my Gallery" data-title="it's me mansi" class="work"> <img src="img/1.jpeg"></a>
+                  <a href="img/16.jpeg" data-lightbox="my Gallery" data-title="it's me mansi" class="work"> <img src="img/16.jpeg"></a>
+                  <a href="img/14.jpeg" data-lightbox="my Gallery" data-title="it's me mansi" class="work"> <img src="img/14.jpeg"></a>
+                  <a href="img/3.jpg" data-lightbox="my Gallery" data-title="it's me mansi"class="work"> <img src="img/3.jpg"></a>
+                  <a href="img/19.jpg" data-lightbox="my Gallery" data-title="it's me mansi"class="work"> <img src="img/19.JPG"></a>
+                  <a href="img/6.jpeg" data-lightbox="my Gallery" data-title="it's me mansi"class="work"> <img src="img/6.jpeg"></a>
+            </div>
+        </div>
+
+    </section>
+ <!-- Hobby Section  -->
+     <section id="hobby">
+      <div class="container">
+        <!-- <h4 class="about-1 text-white">What do i like ?</h4> -->
+        <div class="position-relative d-flex align-items-center justify-content-center">
+          <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke:1px #dee2e6;">Hobby</h1>
+          <h1 class="position-absolute text-uppercase text-primary">Hobby</h1>
+        </div>
+      </div>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="img/music.jpg" class="d-block w-90">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Music</h2>
+              <h5>Music is in my soul. <br>And i also love BTS.</h5>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img src="img/reading.jpg" class="d-flax w-70 ">
+            <div class="carousel-caption d-none d-md-block ">
+              <h2>Reading</h2>
+              <h5>I love reading books.</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/travel.jpg" class="d-block w-70">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Travelling</h2>
+              <h5>I love Travelling and exploring new things.</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+
+          <!-- Services Section  -->
+      <section id="certificate">
+          <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center py-3 mt-5">
+              <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke:2px #dee2e6;">certificate</h1>
+              <h1 class="position-absolute text-uppercase  clr">certificate</h1>
+            </div>
+          </div>
+    
+          <section class="ftco-section">
+            <div class="container">
+              <div class="row justify-content-center pb-5">
+              </div>
+              <div class="row">
+                <div class="col-md-6 text-center d-flex ftco-animate">
+                  <div class="services-1 ">
+                    <div class="desc">
+                      <h3 class="mb-5">Softwere Development</h3>
+                     <img src="img/certi-1.png" >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 text-center d-flex ftco-animate">
+                  <div class="services-1 ">
+                    <div class="desc">
+                      <h3 class="mb-5">Python</h3>
+                      <img src="img/certificate.jpg">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+    <section id="contect">
+      <div class="position-relative d-flex align-items-center justify-content-center pt-5 mt-5">
+        <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke:2px #dee2e6;">CONTECT</h1>
+        <h1 class="position-absolute text-uppercase  clr">CONTECT</h1>
+      </div>
+        <div class="container-1">
+            <div class="row">
+                <div class="contect-left ">
+                    <h1 class="sub-title ">Contect me</h1>
+                    <h5>Name</h5>
+                    <p><i class="fa-solid fa-user"></i>Mansi Rawat</p>
+                    <h5>Email</h5>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>mansirawat670@gmail.com</p>
+                    <h5>Phone</h5>
+                    <p><i class="fa-solid fa-phone"></i>9548048253</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/Rajputrwtjii" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/i_m.rawat_21/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://github.com/MansiRAwat21" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/mansi-rawat-293612220" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="contect-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <h4>Made by Mansi Rawat <i class="fa-solid fa-face-smile"></i></h4>
+        </div>
+
+    </section>
+
+    <script src="js/index.js"></script>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+      <script src="js/lightbox-plus-jquery.min.js"></script>
+</body>
+
+</html>
