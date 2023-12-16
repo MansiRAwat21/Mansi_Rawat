@@ -34,7 +34,7 @@ body{
     margin: 0;
 }
 .container-1{
-    padding: 10px 0%;
+    padding: 20px 0%;
 }
 .container-2{
     padding: 10px 10%;
@@ -46,11 +46,13 @@ nav{
     flex-wrap: wrap;
     position: fixed;
     width: 100%;
+    padding: 8px 0px;
     z-index: 3;
     top: 0;
     background-color:var(--primary-color);
     /* background-color: transparent; */
-    border-bottom: 1px solid var(--secondary-color);
+    /* border-bottom: 1px solid var(--secondary-color); */
+    box-shadow: 0 0px 5px var(--secondary-color);
     padding-right: 30px;
 }
 .logo{
@@ -74,7 +76,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #975bdb;
+    background: #8941dc;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -95,7 +97,7 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .text span{
-    color: #975bdb;
+    color: #8941dc;
 }
 
 /* about */
@@ -110,7 +112,7 @@ nav ul li a:hover::after{
     flex-wrap: wrap;
 }
 .about-1{
-    flex-basis: 35%;
+    flex-basis: 40%;
 }
 .about-1 img{
     width: 100%;
@@ -139,7 +141,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #975bdb;
+    background: #8941dc;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -153,7 +155,7 @@ nav ul li a:hover::after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: #975bdb;
+    color: #8941dc;
     font-size: 14px;
 }
 .tab-contents ul li a{
@@ -195,7 +197,7 @@ nav ul li a:hover::after{
     content: '';
     width: 30px;
     height: 1px;
-    background: #975bdb;
+    background: #8941dc;
     margin: 0 auto;
 }
 .services-1:hover {
@@ -210,7 +212,7 @@ nav ul li a:hover::after{
     
 }
 .clr{
-    color: #975bdb;
+    color: #8941dc;
 }
 .work-list{
     display: grid;
@@ -243,7 +245,7 @@ nav ul li a:hover::after{
 .contect-left h5{
     margin-top: 20px;
     margin-left: 40px;
-    color: #975bdb;
+    color: #8941dc;
 }
 .contect-left p{
     color: var(--secondary-color);
@@ -266,14 +268,14 @@ nav ul li a:hover::after{
     color: var(--secondary-color);
 }
 .social-icon a:hover{
-    color: #975bdb;
+    color: #8941dc;
     transform: translateY(-5px);
 }
 .btn{
     /* display: block; */
     display:inline-block;
     background:#8941dc;
-    margin: 30px 140px;
+    margin: 30px 0px;
     border-radius: 1px;
     padding: 10px 30px;
     border-radius: 6px;
@@ -317,7 +319,7 @@ form .btn{
     display: flex;
     justify-content: center;
     padding: 15px 0;
-    background:#BC8CF2;
+    background:#8941dc;
     font-weight: 300;
     /* margin-top: 20px; */
 }

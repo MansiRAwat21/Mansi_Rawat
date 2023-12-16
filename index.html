@@ -5,20 +5,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Rawat</title>
+  <title>Mansi Rawat</title>
+  <link rel="shortcut icon" href="img/s.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"> 
   <link rel="stylesheet" href="lightbox.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="response.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-  <div id="header">
+  <div id="header" data-aos="fade-in-top">
     <div class="container-1">
       <nav>
         <h3 class="logo">Mansi</h3>
-        <ul id="sidemenu">
+        <ul id="sidemenu" style="margin-bottom: 0;">
           <li><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Project</a></li>
@@ -30,48 +32,56 @@
 
         <i class="fa-solid fa-bars" onclick="openmenu()"></i>
       </nav>
-      <div class="text">
-        <h1>Hi, I'm <br><span>Mansi Rawat</span><br> from Uttarakhand</h1>
+      <div class="text" data-aos="fade-right" >
+        <h1>Hi, I'm <br><span>Mansi Rawat</span><br>
+          </h1>
+           <h5 class="text-uppercase">
+            <small class="fadeIn animated" id="typed"></small>
+        </h5>
       </div>
-      <a href="Mansi-Rawat.pdf" download="" class="btn">Download CV</a>
+      <a href="Mansi Rawat.pdf" download="" class="btn" style="margin-left: 140px;">Download CV</a>
     </div>
   </div>
   <!-- about -->
   <section id="about">
     <div class="container">
       <div class="row">
-        <div class="about-1">
+        <div class="about-1" data-aos="zoom-in-up" data-aos-delay="10">
           <img src="img/14.png">
         </div>
-        <div class="about-2">
+        <div class="about-2"  data-aos="zoom-in-down" data-aos-delay="10">
           <h1 class="sub-title">About me</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi ad porro sed, at iusto dolore
-            libero maiores reiciendis modi veniam culpa placeat nesciunt rem qui, fuga odio. Obcaecati, vero
-            debitis.</p>
+          <p>I am a Frontend Developer with a passion of developing different, complex web applications. I am proficient in a range of technologies including HTML, CSS, Tailwind, React, JavaScript, Bootstrap, Git.</p>
           <div class="tabs">
             <p class="tab-1 tab-2" onclick="opentab('skill')">Skill</p>
             <p class="tab-1" onclick="opentab('education')">Education</p>
-            <p class="tab-1" onclick="opentab('experience')">Projects</p>
+            <p class="tab-1" onclick="opentab('experience')">Experience</p>
           </div>
           <div class="tab-contents active-tab" id="skill">
             <ul>
               <li><span>Web</span><br>Html5 ,Css, JavaScript</li>
-              <li><span>Language</span><br>Java, C, Python</li>
-              <li><span>MS Office</span><br>Word, Excel, PowerPoint</li>
+              <li><span>Frameworks</span><br>React.js, Next.js 13, Redux, React-Query</li>
+              <li><span>Styling Libraries</span><br>Bootstrap, Tailwind CSS, Ant Design</li>
+              <li><span>Version Control</span><br>Git, GitHub</li>
             </ul>
           </div>
           <div class="tab-contents" id="experience">
             <ul>
-              <li><span>Portfolio</span><br><a
-                  href="https://mansirawat21.github.io/sir-portfolio/">https://mansirawat21.github.io/sir-portfolio/</a>
+              <li><span>Junior Frontend Developer</span><br>
+                Premier Consultancy and Investigation Pvt Ltd
+                <!-- <a
+                  href="https://mansirawat21.github.io/sir-portfolio/">https://mansirawat21.github.io/sir-portfolio/</a> -->
               </li>
-              <li><span>Fashiononsta</span><br><a
-                  href="https://mansirawat21.github.io/Project-work/">https://mansirawat21.github.io/Project-work/</a>
+              <li><span>Software Developer Intern </span><br>
+                <!-- <a
+                  href="https://mansirawat21.github.io/Project-work/">https://mansirawat21.github.io/Project-work/</a> -->
+                  Web Developer (YoursthatSenior)
               </li>
             </ul>
           </div>
           <div class="tab-contents" id="education">
             <ul>
+              <li ><span>Graduation</span><br>Indira Gandhi National Open University</li>
               <li><span>Diploma</span><br>Govt. Polytechnic Kashipur(Uttarakhand)</li>
               <li><span>Secondary School</span><br>G G I C Dewayal salt Almora (Uttarakhand)</li>
               <li><span>High School</span><br>G G I C Dewayal salt Almora (Uttarakhand)</li>
@@ -121,7 +131,7 @@
       <div class="row">
         <div class="col-md-6 text-center d-flex ftco-animate">
           <div class="services-1 ">
-            <div class="desc">
+            <div class="desc"  data-aos="flip-right" data-aos-anchor-placement="bottom-bottom">
               <h3 class="mb-5">Softwere Development</h3>
               <img src="img/certi-1.png">
             </div>
@@ -129,7 +139,7 @@
         </div>
         <div class="col-md-6 text-center d-flex ftco-animate">
           <div class="services-1 ">
-            <div class="desc">
+            <div class="desc" data-aos="flip-right" data-aos-anchor-placement="top-center">
               <h3 class="mb-5">Python</h3>
               <img src="img/certificate.jpg">
             </div>
@@ -146,7 +156,7 @@
     </div>
     <div class="container-2">
       <div class="row">
-        <div class="contect-left ">
+        <div class="contect-left " data-aos="zoom-in-right" data-aos-delay="5">
           <h1 class="sub-title ">Contect me</h1>
           <h5>Name</h5>
           <p><i class="fa-solid fa-user"></i>Mansi Rawat</p>
@@ -164,7 +174,7 @@
           </div>
 
         </div>
-        <div class="contect-right">
+        <div class="contect-right" data-aos="zoom-in-right" data-aos-delay="5">
           <form>
             <input type="text" name="name" placeholder="Your name" required>
             <input type="email" name="email" placeholder="Your email" required>
@@ -181,10 +191,18 @@
   </section>
 
   <script src="js/index.js"></script>
+  <script src="js/typewriter.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
   <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init({
+          duration: 1000,
+          easing: 'ease-in-out',
+      });
+  </script>
 </body>
 
 </html>
